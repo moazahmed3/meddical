@@ -1,0 +1,87 @@
+
+:root{
+    --main-color:#1F2B6C;
+    --sec-color:#159EEC;
+    --accent--color:#BFD2F8;
+}
+body {
+  font-family: "Yeseva One", serif;
+}
+
+.text-main{
+    color: var(--main-color) !important;
+}
+.bg-main{
+    background-color: var(--main-color) !important;
+}
+.text-sec{
+    color: var(--sec-color)!important;
+}
+
+
+.bg-sec{
+    background-color: var(--sec-color)!important;
+}
+.text-accent{
+    color: var(--accent--color)!important;
+}
+
+.bg-accent{
+    background-color: var(--accent--color)!important;
+}
+
+textarea{
+    resize: none;
+    height: 250px;
+
+}
+/*============================= start hero ========================== */
+.hero{
+    height: 100vh;
+    background-image: url("../img/hero.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.hero h1{
+    font-size: 3.4rem;
+}
+
+/*============================= end hero ========================== */
+
+
+.services .card img{
+    width: 40px;
+}
+
+.specialties .card img{
+    width: 80px;
+}
+
+
+
+.book{
+    background: linear-gradient( rgba(255, 255, 255, 0.292) , rgb(255,255,255) ) , url('../img/book.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+
+}
+
+.circlers span{
+    display: inline-block;
+    width: 25px;
+    height: 25px;
+    background-color: var(--accent--color);
+    border-radius: 50%;
+    cursor: pointer;
+}
+
+.news .icons span img{
+    width: 20px;
+}
+
+.contact img{
+    width: 40px;
+}
